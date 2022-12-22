@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=THM Core
+Comment=Connect to the THM P2P Network
+Comment[de]=Verbinde mit dem THM peer-to-peer Netzwerk
+Comment[fr]=THM, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=THM, eşten eşe kriptografik sanal para birimi
+Exec=thm-qt %u
+Terminal=false
+Type=Application
+Icon=thm128
+MimeType=x-scheme-handler/thm;
+Categories=Office;Finance;

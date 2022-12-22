@@ -1,0 +1,7 @@
+[main]
+host = https://www.transifex.com
+
+[thm.qt-translation-014x]
+file_filter = src/qt/locale/thm_<lang>.ts
+source_file = src/qt/locale/thm_en.ts
+source_lang = en

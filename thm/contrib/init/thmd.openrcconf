@@ -1,0 +1,33 @@
+# /etc/conf.d/thmd: config file for /etc/init.d/thmd
+
+# Config file location
+#THMD_CONFIGFILE="/etc/thm/thm.conf"
+
+# What directory to write pidfile to?  (created and owned by $THMD_USER)
+#THMD_PIDDIR="/var/run/thmd"
+
+# What filename to give the pidfile
+#THMD_PIDFILE="${THMD_PIDDIR}/thmd.pid"
+
+# Where to write thmd data (be mindful that the blockchain is large)
+#THMD_DATADIR="/var/lib/thmd"
+
+# User and group to own thmd process
+#THMD_USER="thm"
+#THMD_GROUP="thm"
+
+# Path to thmd executable
+#THMD_BIN="/usr/bin/thmd"
+
+# Nice value to run thmd under
+#THMD_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+#THMD_OPTS=""
+
+# The timeout in seconds OpenRC will wait for thmd to terminate
+# after a SIGTERM has been raised.
+# Note that this will be mapped as argument to start-stop-daemon's
+# '--retry' option, which means you can specify a retry schedule
+# here. For more information see man 8 start-stop-daemon.
+THMD_SIGTERM_TIMEOUT=60

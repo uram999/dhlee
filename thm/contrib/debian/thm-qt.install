@@ -1,0 +1,6 @@
+usr/local/bin/thm-qt usr/bin
+share/pixmaps/thm32.xpm usr/share/pixmaps
+share/pixmaps/thm16.xpm usr/share/pixmaps
+share/pixmaps/thm128.png usr/share/pixmaps
+debian/thm-qt.desktop usr/share/applications
+debian/thm-qt.protocol usr/share/kde4/services/

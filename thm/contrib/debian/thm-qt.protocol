@@ -1,0 +1,11 @@
+[Protocol]
+exec=thm-qt '%u'
+protocol=thm
+input=none
+output=none
+helper=true
+listing=
+reading=false
+writing=false
+makedir=false
+deleting=false

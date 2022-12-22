@@ -1,0 +1,2 @@
+Error: Cannot obtain a lock on data directory /root/.thm. THM Core is probably already running.
+Error: Unable to start HTTP server. See debug log for details.

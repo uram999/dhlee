@@ -1,0 +1,8 @@
+/usr/bin/thm-cli		--	gen_context(system_u:object_r:thm_exec_t,s0)
+/usr/sbin/thmd		--	gen_context(system_u:object_r:thm_exec_t,s0)
+/usr/lib(64)?/thm/thmd		--	gen_context(system_u:object_r:thm_exec_t,s0)
+
+/etc/thm(/.*)?		gen_context(system_u:object_r:thm_conf_t,s0)
+/var/lib/thm(/.*)?		gen_context(system_u:object_r:thm_var_lib_t,s0)
+
+(/var)?/run/thmd(/.*)?   gen_context(system_u:object_r:thm_var_run_t,s0)
