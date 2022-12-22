@@ -1,10 +1,6 @@
 # THM Core
 ### BlockChain Infrastructure 
 
-- Member
-    - Project Leader : 이득환
-    - Front-End Developer(Engineer) : 이승일, 이우람
-    - Back-End Developer(Engineer) : 이도경
 - Nodes
     - Full Node : hadoop01, hadoop02
     - Mining Node :  개인 클라우드PC(윈도우 프로그램 배포 예정)
